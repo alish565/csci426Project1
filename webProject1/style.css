@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border-bottom: 4px solid #009688;
+    background-color: darkslategray;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu {
+    transition: all 0.3s ease;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    background-color: #F5F5F5;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card:hover {
+    border: solid 4px;
+}
+
+.hero {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: darkslategray;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-style: normal;
+    color: darkslategray;
+}
+
+main {
+    background-color: #F5F5F5;
+    width: 100%;
+    overflow: hidden;
+}
+
+.guide {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.custom_nav .nav-link {
+    color: white;
+}
+
+.custom_nav .nav-link:hover {
+    color: blueviolet;
+}
+
+.get-started-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    color: #F5F5F5
+}
+
+.get-started-btn:active {
+    background-color: #1e7e34;
+    transform: scale(0.98);
+}
+
+.x {
+    border: 1px solid grey !important;
+}
+
+.x:hover {
+    border: 1px solid white !important;
+}
+
+.x:active {
+    border: 2px solid white !important;
+}
+
+.card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* Hide the overflow text */
+    text-overflow: ellipsis;
+    /* Add "..." when the text overflows */
+    transition: all 0.6s ease;
+    /* Smooth transition for hover effect */
+}
+
+.card-title:hover {
+    -webkit-line-clamp: unset;
+    /* Remove the line clamp on hover */
+    overflow: visible;
+    /* Make the overflow text visible */
+}
+
+#y {
+    width: 100%;
+    height: auto;
+    background-image: url(images/back3.jpg);
+    padding-top: 100px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+}
+
+.get-started-btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler i {
+    border-color: #F5F5F5;
+    color: white;
+}
